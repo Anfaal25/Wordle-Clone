@@ -1,0 +1,175 @@
+
+.darkmodebtn{
+  margin-left: -20%;
+  margin-right: auto;
+  border: none;
+  font-size: 25px;
+  color: purple;
+  background-color: transparent;
+}
+
+
+.hintbtn{
+  color: purple;
+  border: none;
+  background-color: transparent;
+  font-size: 22px;
+  margin: auto;
+}
+
+
+.infobtn{
+  border: none;
+  color: purple;
+  font-size: 22px;
+  background-color: transparent;
+  margin: auto;
+}
+
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+
+.title-container{
+  text-align: center;
+  width: 550px;
+  border-bottom: 1px solid ;
+}
+
+.buttons{
+  text-align: right;
+  margin-top: -10%;
+}
+
+.game-container{
+  height: 90vh;
+  display: flex ;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.tile-container{
+  width:330px;
+  margin-bottom: 30px;
+}
+
+
+
+.key-container{
+  width:510px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: purple;
+}
+
+
+.key-container button {
+  width: 44px;
+  height: 57px;
+  border: none;
+  background-color: #818384;
+  color:white;
+  margin: 4px;
+}
+
+
+.key-container button:nth-child(29),
+.key-container button:nth-child(28) {
+  width: 68px;
+}
+
+
+.tile-container div{
+  display: flex;
+  justify-content: center;
+}
+
+
+.tile-container .tile {
+  width: 62px;
+  height: 62px;
+  border: 2px solid#3a3a3c;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+}
+
+
+.notif-container p { 
+  background-color: #818384;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0
+}
+
+
+.notif-container div { 
+  background-color: red;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0
+}
+
+
+.notif-container button { 
+  border: 1px solid;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding-left: 40%;
+  padding-right: 40%;
+}
+
+#text{
+  margin-left: 50%;
+  margin-top: -20%;
+  border-left: 1px solid;
+  padding-left: 20px;
+  font-size: larger;
+}
+
+
+.boxes-demo {
+  display: grid;
+  grid-template-columns: 33% 33% 33% 33%;
+  grid-template-rows: 33% 33% 33% 33%;
+  max-width: 300px;
+  margin-left: 20%;
+  margin-top: -40%;
+}
+
+
+.box {
+  border: 1px solid ;
+  width: 82px;
+  height: 82px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px; 
+}
+
+
+.grey-overlay {
+  background-color: #3a3a3c !important;
+  border:none !important;
+}
+
+.yellow-overlay {
+  background-color: #b59f3a !important;
+  border:none !important;
+}
+
+.green-overlay {
+  background-color: #538d4e !important;
+  border:none !important;
+}
+

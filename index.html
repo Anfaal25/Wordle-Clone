@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Wordle</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/47f2bc4982.js" crossorigin="anonymous"></script>
+  </head>
+
+
+  <body>
+    
+
+  <div id = "game">
+    <div class = "game-container">
+      <div class = "title-container">
+        <h1>Wordle</h1>
+        <div class = "buttons">
+
+          <button class = "darkmodebtn" onclick="toggleDark()">&#9681;</button>
+          <button class = "hintbtn" onclick="showHint()">&#63;</button>
+          <button class = "infobtn" onclick = "togglevis()">&#9432;</button>
+
+        </div>
+      </div>
+      
+      <div id = "hintText"></div>
+      <div class = "tile-container"></div>
+
+      <div class = "key-container"></div>
+      
+      <div class = "notif-container"></div>
+
+
+      
+    </div>
+  </div>
+
+
+
+
+    <div id = "help" style="display: none;">
+      <div class = "game-container">
+        <div class = "title-container">
+          <h1>Wordle</h1>
+          <div class = "buttons">
+  
+            <button class = "darkmodebtn" onclick="toggleDark()">&#9681;</button>
+            <button class = "hintbtn" onclick="">&#63;</button>
+            <button class = "infobtn" onclick = "togglevis()">&#9432;</button>
+  
+          </div>
+        </div>
+      </div>
+      <section class="boxes-demo">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+                
+      </section>
+      <div id = "text">
+        <h1>
+          How to Play
+        </h1>
+        <div id = "para">
+          <ul>
+            <li>Start typing. The letters will appear in the boxes.</li>
+            <li>Remove letters with 'DEL'.</li>
+            <li>Hit 'Enter' to submit an answer.</li>
+            <li>Letters with green background are in the right spot.</li>
+            <li>Letters with yellow background exist in the word, but are in the wrong spots.</li>
+            <li>Letters with gray background do not exist in the word.</li>
+            <li>If you need a hint, click the &#63; icon.</li>
+            
+          </ul>
+        </div>
+      </div> 
+    </div>
+          
+  </body>
+    <script src="./wordle.js"></script>
+</html>
+
+    
+
+    
+      
